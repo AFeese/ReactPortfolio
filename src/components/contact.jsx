@@ -20,7 +20,7 @@ class Contact extends React.Component{
                                 </h5>
                             </div>
                             <div>
-                                <form action="https://formspree.io/frankdavid93om@yahoo.com" method="POST" className="contactForm">
+                                <form action="https://formspree.io/xrgyjbzl" method="POST" className="contactForm">
                                 <div id="sendmessage">Your message has been sent. Thank you!</div>
                                 <div id="errormessage"></div>
                                 <div className="row">
@@ -63,8 +63,8 @@ class Contact extends React.Component{
                             </div>
                             <div className="more-info">
                                 <p className="lead">
-                                    {/* Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.<br />
-                                    Simply fill the from and send me an email. */}
+                                    Proudly affiliated with <strong>Women Who Code </strong> 
+                                     and <strong>Society of Women Engineers</strong>
                                 </p>
                                 {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>

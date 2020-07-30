@@ -16,65 +16,28 @@ class Contact extends React.Component{
                             <div className="col-md-6">
                             <div className="title-box-2">
                                 <h5 className="title-left">
-                                Send A Message
+                                Contact
                                 </h5>
                             </div>
                             <div>
-                                <form action="https://formspree.io/xrgyjbzl" method="POST" className="contactForm">
-                                <div id="sendmessage">Your message has been sent. Thank you!</div>
-                                <div id="errormessage"></div>
-                                <div className="row">
-                                    <div className="col-md-12 mb-3">
-                                    <div className="form-group">
-                                        <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                        <div className="validation"></div>
-                                    </div>
-                                    </div>
-                                    <div className="col-md-12 mb-3">
-                                    <div className="form-group">
-                                        <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                        <div className="validation"></div>
-                                    </div>
-                                    </div>
-                                    <div className="col-md-12 mb-3">
-                                        <div className="form-group">
-                                        <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                        <div className="validation"></div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-12 mb-3">
-                                    <div className="form-group">
-                                        <textarea className="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                                        <div className="validation"></div>
-                                    </div>
-                                    </div>
-                                    <div className="col-md-12">
-                                    <button type="submit" className="button button-a button-big button-rouded">Send Message</button>
-                                    </div>
-                                </div>
-                                </form>
+                                <h5><a href="mailto:ashleyfeese@outlook.com"><span class="ion-email"></span><strong> ashleyfeese@outlook.com</strong></a></h5>
                             </div>
                             </div>
                             <div className="col-md-6">
                             <div className="title-box-2 pt-4 pt-md-0">
                                 <h5 className="title-left">
-                                Social | Resume
+                                Social
                                 </h5>
                             </div>
                             <div className="more-info">
                                 <p className="lead">
-                                    Proudly affiliated with <strong>Women Who Code </strong> 
-                                     and <strong>Society of Women Engineers</strong>
+                                    Proudly affiliated with <a href="https://www.womenwhocode.com/" target="_blank"><strong>Women Who Code </strong></a>
+                                     and <a href="https://swe.org/" target="_blank"><strong>Society of Women Engineers</strong></a>
                                 </p>
-                                {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                <li><span class="ion-email"></span> contact@example.com</li>
-                                </ul> --> */}
                             </div>
                             <div className="socials">
                                 <ul>
-                                {/* <li><a href="https://codepen.io/kodi24fever/" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-codepen"></i></span></a></li> */}
+                                {/* <li><a href="#" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-codepen"></i></span></a></li> */}
                                 <li><a href="https://github.com/AFeese" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-github"></i></span></a></li>
                                 <li><a href="https://www.linkedin.com/in/ashley-feese/" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-linkedin"></i></span></a></li>
                                 </ul>

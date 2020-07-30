@@ -58,13 +58,13 @@ class Contact extends React.Component{
                             <div className="col-md-6">
                             <div className="title-box-2 pt-4 pt-md-0">
                                 <h5 className="title-left">
-                                Get in Touch
+                                Social | Resume
                                 </h5>
                             </div>
                             <div className="more-info">
                                 <p className="lead">
-                                    Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.<br />
-                                    Simply fill the from and send me an email.
+                                    {/* Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.<br />
+                                    Simply fill the from and send me an email. */}
                                 </p>
                                 {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
@@ -74,9 +74,9 @@ class Contact extends React.Component{
                             </div>
                             <div className="socials">
                                 <ul>
-                                <li><a href="https://codepen.io/kodi24fever/" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-codepen"></i></span></a></li>
-                                <li><a href="https://github.com/kodi24fever" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-github"></i></span></a></li>
-                                <li><a href="https://www.linkedin.com/in/frankizquierdo/" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-linkedin"></i></span></a></li>
+                                {/* <li><a href="https://codepen.io/kodi24fever/" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-codepen"></i></span></a></li> */}
+                                <li><a href="https://github.com/AFeese" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-github"></i></span></a></li>
+                                <li><a href="https://www.linkedin.com/in/ashley-feese/" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-linkedin"></i></span></a></li>
                                 </ul>
                             </div>
                             </div>
@@ -91,7 +91,7 @@ class Contact extends React.Component{
                     <div className="row">
                     <div className="col-sm-12">
                         <div className="copyright-box">
-                        <p className="copyright">2019 &copy; Copyright <strong>Frank Izquierdo</strong>. All Rights Reserved</p>
+                        <p className="copyright">2020 &copy; Copyright <strong>Ashley Feese</strong> - Powered by Heroku</p>
                         </div>
                     </div>
                     </div>

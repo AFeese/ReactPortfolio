@@ -1,19 +1,19 @@
 import React from 'react';
-import myImage from "../img/myImage.jpg";
+import myImage from "../img/MERN.png";
 
 class About extends React.Component{
     constructor(){
         super();
         this.state = {
             skills:[
-                {id:"HTML5_skill", content: "HTML5",porcentage: "80%", value: "80"},
-                {id:"CSS3_skill", content: "CSS3",porcentage: "75%", value: "75"},
-                {id:"JavaScript_skill", content: "JavaScript",porcentage: "90%", value: "90"},
-                {id:"PHP_skill", content: "PHP",porcentage: "70%", value: "70"},
-                {id:"ReactJS_skill", content: "ReactJS",porcentage: "80%", value: "80"},
-                {id:"Python_skill", content: "Python",porcentage: "75%", value: "75"},
-                {id:"VanillaJS_skill", content: "VanillaJS",porcentage: "85%", value: "85"},
-                {id:"Wordpress_skill", content: "Wordpress",porcentage: "80%", value: "80"}
+                {id:"HTML5_skill", content: "HTML5",percentage: "90%", value: "90"},
+                {id:"CSS3_skill", content: "CSS3",percentage: "75%", value: "75"},
+                {id:"JavaScript_skill", content: "JavaScript",percentage: "90%", value: "90"},
+                // {id:"PHP_skill", content: "PHP",percentage: "70%", value: "70"},
+                {id:"ReactJS_skill", content: "ReactJS",percentage: "80%", value: "80"},
+                // {id:"Python_skill", content: "Python",percentage: "75%", value: "75"},
+                // {id:"VanillaJS_skill", content: "VanillaJS",percentage: "85%", value: "85"},
+                // {id:"Wordpress_skill", content: "Wordpress",percentage: "80%", value: "80"}
             ],
             about_me:[
                 {id: "first-p-about",content: "Software Engineer who loves to transform ideas into reality using code. I am passionate about using Javascript and Animation Libraries to create awesome user experiences."},
@@ -53,9 +53,9 @@ class About extends React.Component{
                                                 this.state.skills.map(skill => {
                                                     return(
                                                         <React.Fragment key={skill.id}>
-                                                            <span>{skill.content}</span> <span className="pull-right">{skill.porcentage}</span>
+                                                            <span>{skill.content}</span> <span className="pull-right">{skill.percentage}</span>
                                                             <div className="progress">
-                                                                <div className="progress-bar" role="progressbar" style={{width: skill.porcentage}} aria-valuenow={skill.value} aria-valuemin="0" aria-valuemax="100"></div>
+                                                                <div className="progress-bar" role="progressbar" style={{width: skill.percentage}} aria-valuenow={skill.value} aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
                                                         </React.Fragment>
                                                     );

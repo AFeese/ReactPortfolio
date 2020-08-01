@@ -6,12 +6,19 @@ import NoteTaker from "../img/notetaker.png";
 import ReadMe from "../img/cliReadme.png";
 import Scheduler from "../img/wdsched.jpg";
 
+import Project from "./project"
+
 
 // This is where I know that I need to make a Portfolio component itself and render multiple instances.
 // I only rendered one single return here instead of 6 but I am still getting familiar with it :(
 
-class Portfolio extends React.Component {
+const URLs = {
+  redPlanetLive: "https://team-5-project-2.herokuapp.com/",
+  redPlanetCode: "https://github.com/AFeese/RedPlanetVoyagers"
+}
 
+class Portfolio extends React.Component {
+ 
   render() {
     return (
 
@@ -30,36 +37,15 @@ class Portfolio extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={RedPlanet} data-lightbox="gallery-vmarine">
-                  <div className="work-img">
-                    <img src={RedPlanet} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Red Planet Voyagers - A Mars Pre-Travel Hub</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
-                          <div>
-                            <span className="w-ctegory">
-                              <a href="https://team-5-project-2.herokuapp.com/" target="_blank">Live Site |</a>
-                              <a href="https://github.com/AFeese/RedPlanetVoyagers" target="_blank"> View Code </a>
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
+            <Project image={RedPlanet} 
+                     liveUrl={URLs.redPlanetLive} 
+                     codeUrl={URLs.redPlanetCode}
+                     title="Red Planet Voyagers - A Mars Pre-Travel Hub"
+                     technologies="HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js"
+                     hasWebsite={true}
+                    />
+
+            <Project image=
             <div className="col-md-4">
               <div className="work-box">
                 <a href={FuelUp} data-lightbox="gallery-aguadeluz">

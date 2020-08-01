@@ -1,40 +1,14 @@
 import React from 'react';
+import RedPlanet from "../img/rpv.png";
+import FuelUp from "../img/fuelup.jpg";
+import TemplateEng from "../img/templateENG.png";
+import NoteTaker from "../img/notetaker.png";
+import ReadMe from "../img/cliReadme.png";
+import Scheduler from "../img/wdsched.jpg";
 
-//import vmarine
-import vmarine from "../img/rpv.png";
-// import vmarine1 from "../img/vmarine-1.png";
-// import vmarine2 from "../img/vmarine-2.png";
-// import vmarine3 from "../img/vmarine-3.png";
-// import vmarine4 from "../img/vmarine-4.png";
-// import vmarine5 from "../img/vmarine-5.png";
-// import vmarine6 from "../img/vmarine-6.png";
-// import vmarine7 from "../img/vmarine-7.png";
 
-//aguadeluz pics
-import aguaDeLuz from "../img/fuelup.jpg";
-// import aguaDeLuz1 from "../img/aguaDeLuz-1.png";
-// import aguaDeLuz2 from "../img/aguaDeLuz-2.png";
-// import aguaDeLuz3 from "../img/aguaDeLuz-3.png";
-// import aguaDeLuz4 from "../img/aguaDeLuz-4.png";
-
-//import todo
-import todoList from "../img/templateENG.png";
-// import todoList1 from "../img/todo-1.png";
-// import todoList2 from "../img/todo-2.png";
-// import todoList3 from "../img/todo-3.png";
-
-//import medlingos
-import medlingos from "../img/notetaker.png";
-// import medlingos1 from "../img/medlingos-1.jpg";
-// import medlingos2 from "../img/medlingos-2.jpg";
-// import medlingos3 from "../img/medlingos-3.jpg";
-// import medlingos4 from "../img/medlingos-4.jpg";
-
-//import amtbw
-import amtbw from "../img/cliReadme.png";
-
-//import landing page
-import product from "../img/wdsched.jpg";
+// This is where I know that I need to make a Portfolio component itself and render multiple instances.
+// I only rendered one single return here instead of 6 but I am still getting familiar with it :(
 
 class Portfolio extends React.Component {
 
@@ -43,8 +17,6 @@ class Portfolio extends React.Component {
 
       <section id="work" className="portfolio-mf sect-pt4 route">
         <div className="container">
-
-
           <div className="row">
             <div className="col-sm-12">
               <div className="title-box text-center">
@@ -52,30 +24,30 @@ class Portfolio extends React.Component {
                   Portfolio
                     </h3>
                 <p className="subtitle-a">
-                  {/* Check Out My Latest Projects. */}
                 </p>
                 <div className="line-mf"></div>
               </div>
             </div>
           </div>
-
-
           <div className="row">
-
-
             <div className="col-md-4">
               <div className="work-box">
-                <a href={vmarine} data-lightbox="gallery-vmarine">
+                <a href={RedPlanet} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={vmarine} alt="" className="img-fluid" />
+                    <img src={RedPlanet} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
                         <h2 className="w-title">Red Planet Voyagers - A Mars Pre-Travel Hub</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
-                          <span className="w-ctegory">Live Site | View Code</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
+                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
+                          <div>
+                            <span className="w-ctegory">
+                              <a href="https://team-5-project-2.herokuapp.com/" target="_blank">Live Site |</a>
+                              <a href="https://github.com/AFeese/RedPlanetVoyagers" target="_blank"> View Code </a>
+                            </span>
+                          </div>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -86,30 +58,26 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                {/* <a href={vmarine1} data-lightbox="gallery-vmarine" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a> */}
-                {/* <a href={vmarine2} data-lightbox="gallery-vmarine" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
-                      <a href={vmarine3} data-lightbox="gallery-vmarine" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
-                      <a href={vmarine4} data-lightbox="gallery-vmarine" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
-                      <a href={vmarine5} data-lightbox="gallery-vmarine" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
-                      <a href={vmarine6} data-lightbox="gallery-vmarine" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
-                      <a href={vmarine7} data-lightbox="gallery-vmarine" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a> */}
               </div>
             </div>
-
-
             <div className="col-md-4">
               <div className="work-box">
-                <a href={aguaDeLuz} data-lightbox="gallery-aguadeluz">
+                <a href={FuelUp} data-lightbox="gallery-aguadeluz">
                   <div className="work-img">
-                    <img src={aguaDeLuz} alt="" className="img-fluid" />
+                    <img src={FuelUp} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
                         <h2 className="w-title">FuelUp! Fuel and Charging Station Locator</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
-                          <span className="w-ctegory">Live Site | View Code</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
+                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
+                          <div>
+                            <span className="w-ctegory">
+                              <a href="https://team6diamondplatipi.github.io/TechnicallyAMammal/" target="_blank">Live Site |</a>
+                              <a href="https://github.com/Team6DiamondPlatipi/TechnicallyAMammal" target="_blank"> View Code </a>
+                            </span>
+                          </div>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -120,27 +88,25 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                {/* <a href={aguaDeLuz1} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
-                    <a href={aguaDeLuz2} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
-                    <a href={aguaDeLuz3} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
-                    <a href={aguaDeLuz4} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a> */}
               </div>
             </div>
-
-
             <div className="col-md-4">
               <div className="work-box">
-                <a href={todoList} data-lightbox="gallery-todo">
+                <a href={TemplateEng} data-lightbox="gallery-todo">
                   <div className="work-img">
-                    <img src={todoList} alt="" className="img-fluid" />
+                    <img src={TemplateEng} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
                         <h2 className="w-title">Team Template Engine - CLI</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
-                          <span className="w-ctegory">Live Site | View Code</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
+                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
+                          <div>
+                            <span className="w-ctegory">
+                              <a href="https://github.com/AFeese/EmployeeTemplateEngine" target="_blank"> View Code in Your Terminal</a>
+                            </span>
+                          </div>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -151,26 +117,26 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                {/* <a href={todoList1} data-lightbox="gallery-todo" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
-                    <a href={todoList2} data-lightbox="gallery-todo" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
-                    <a href={todoList3} data-lightbox="gallery-todo" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a> */}
               </div>
             </div>
-
-
             <div className="col-md-4">
               <div className="work-box">
-                <a href={medlingos} data-lightbox="gallery-medlingos">
+                <a href={NoteTaker} data-lightbox="gallery-medlingos">
                   <div className="work-img">
-                    <img src={medlingos} alt="" className="img-fluid" />
+                    <img src={NoteTaker} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
                         <h2 className="w-title">EXPRESS Note Taker</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
-                          <span className="w-ctegory">Live Site | View Code</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
+                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
+                          <div>
+                            <span className="w-ctegory">
+                              <a href="https://afeese-note-taker.herokuapp.com/" target="_blank">Live Site |</a>
+                              <a href="https://github.com/AFeese/NoteTaker" target="_blank"> View Code </a>
+                            </span>
+                          </div>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -181,27 +147,25 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                {/* <a href={medlingos1} data-lightbox="gallery-medlingos" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
-                    <a href={medlingos2} data-lightbox="gallery-medlingos" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
-                    <a href={medlingos3} data-lightbox="gallery-medlingos" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
-                    <a href={medlingos4} data-lightbox="gallery-medlingos" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a> */}
               </div>
             </div>
-
-
             <div className="col-md-4">
               <div className="work-box">
-                <a href={amtbw} data-lightbox="gallery-amtbw">
+                <a href={ReadMe} data-lightbox="gallery-amtbw">
                   <div className="work-img">
-                    <img src={amtbw} alt="" className="img-fluid" />
+                    <img src={ReadMe} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
                         <h2 className="w-title">README Generator - CLI</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
-                          <span className="w-ctegory">Live Site | View Code</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
+                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
+                          <div>
+                            <span className="w-ctegory">
+                              <a href="https://github.com/AFeese/READMEgenerator" target="_blank"> View Code in Your CLI</a>
+                            </span>
+                          </div>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -214,21 +178,24 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-
-
             <div className="col-md-4">
               <div className="work-box">
-                <a href={product} data-lightbox="gallery-mf">
+                <a href={Scheduler} data-lightbox="gallery-mf">
                   <div className="work-img">
-                    <img src={product} alt="" className="img-fluid" />
+                    <img src={Scheduler} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
                         <h2 className="w-title">Workday Scheduler</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
-                          <span className="w-ctegory">Live Site | View Code</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
+                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
+                          <div>
+                            <span className="w-ctegory">
+                              <a href="https://afeese.github.io/Day-Planner/" target="_blank">Live Site |</a>
+                              <a href="https://github.com/AFeese/Day-Planner" target="_blank"> View Code </a>
+                            </span>
+                          </div>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -241,7 +208,6 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-
           </div>
         </div>
       </section>

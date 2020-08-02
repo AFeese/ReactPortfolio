@@ -20,7 +20,8 @@ const URLs = {
   redPlanetLive: "https://team-5-project-2.herokuapp.com/",
   redPlanetCode: "https://github.com/AFeese/RedPlanetVoyagers",
   fuelUpLive: "https://team6diamondplatipi.github.io/TechnicallyAMammal/",
-  fuelUpCode: "https://github.com/Team6DiamondPlatipi/TechnicallyAMammal"
+  fuelUpCode: "https://github.com/Team6DiamondPlatipi/TechnicallyAMammal",
+  templateEngCode: "https://github.com/AFeese/EmployeeTemplateEngine"
 }
 
 class Portfolio extends React.Component {
@@ -44,18 +45,18 @@ class Portfolio extends React.Component {
           <div className="container">
 
             {/* Top title box */}
-            <div className="row">
+            {/* <div className="row">
               <div className="col-sm-12">
-                {/* <div className="title-box text-center">
+                <div className="title-box text-center">
                     <h3 className="title-a">
                       Portfolio
                       </h3>
                     <p className="subtitle-a">
                     </p>
                     <div className="line-mf"></div>
-                </div> */}
+                </div>
               </div>
-            </div>
+            </div> */}
             {/* End top title box */}
 
             {/* Start projects section */}
@@ -75,123 +76,128 @@ class Portfolio extends React.Component {
                 technologies="HTML5, CSS, JavaScript, Bootstrap, Node, MaterializeCSS, Google Maps API, Openchargemap.io"
                 hasWebsite={true}
               />
-
-
-            <div className="col-md-4">
-              <div className="work-box">
-                {/* <a href={TemplateEng} data-lightbox="gallery-todo"> */}
-                <div>
-                  <div className="work-img">
-                    <img src={TemplateEng} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Team Template Engine - CLI</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
-                          <div>
-                            <span className="w-ctegory">
-                              <a href="https://github.com/AFeese/EmployeeTemplateEngine" target="_blank"> View Code in Your Terminal</a>
-                            </span>
+              <Project image={TemplateEng}
+                codeUrl={URLs.templateEngCode}
+                title="Employee Template Engine - Using CLI"
+                technologies="HTML5, CSS, JavaScript, Bootstrap, Node, MaterializeCSS, Google Maps API, Openchargemap.io"
+                hasWebsite={false}
+              />
+              <div className="col-md-4">
+                <div className="work-box">
+                  {/* <a href={TemplateEng} data-lightbox="gallery-todo"> */}
+                  <div>
+                    <div className="work-img">
+                      <img src={TemplateEng} alt="" className="img-fluid" />
+                    </div>
+                    <div className="work-content">
+                      <div className="row">
+                        <div className="col-sm-8">
+                          <h2 className="w-title">Team Template Engine - CLI</h2>
+                          <div className="w-more">
+                            <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
+                            <div>
+                              <span className="w-ctegory">
+                                <a href="https://github.com/AFeese/EmployeeTemplateEngine" target="_blank"> View Code in Your Terminal</a>
+                              </span>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                        <div className="col-sm-4">
+                          <div className="w-like">
+                            <span className="ion-ios-plus-outline"></span>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                {/* <a href={NoteTaker} data-lightbox="gallery-medlingos"> */}
-                <div>
-                  <div className="work-img">
-                    <img src={NoteTaker} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">EXPRESS Note Taker</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
-                          <div>
-                            <span className="w-ctegory">
-                              <a href="https://afeese-note-taker.herokuapp.com/" target="_blank">Live Site |</a>
-                              <a href="https://github.com/AFeese/NoteTaker" target="_blank"> View Code </a>
-                            </span>
+              <div className="col-md-4">
+                <div className="work-box">
+                  {/* <a href={NoteTaker} data-lightbox="gallery-medlingos"> */}
+                  <div>
+                    <div className="work-img">
+                      <img src={NoteTaker} alt="" className="img-fluid" />
+                    </div>
+                    <div className="work-content">
+                      <div className="row">
+                        <div className="col-sm-8">
+                          <h2 className="w-title">EXPRESS Note Taker</h2>
+                          <div className="w-more">
+                            <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
+                            <div>
+                              <span className="w-ctegory">
+                                <a href="https://afeese-note-taker.herokuapp.com/" target="_blank">Live Site |</a>
+                                <a href="https://github.com/AFeese/NoteTaker" target="_blank"> View Code </a>
+                              </span>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                        <div className="col-sm-4">
+                          <div className="w-like">
+                            <span className="ion-ios-plus-outline"></span>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                {/* <a href={ReadMe} data-lightbox="gallery-amtbw"> */}
-                <div>
-                  <div className="work-img">
-                    <img src={ReadMe} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">README Generator - CLI</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
-                          <div>
-                            <span className="w-ctegory">
-                              <a href="https://github.com/AFeese/READMEgenerator" target="_blank"> View Code in Your CLI</a>
-                            </span>
+              <div className="col-md-4">
+                <div className="work-box">
+                  {/* <a href={ReadMe} data-lightbox="gallery-amtbw"> */}
+                  <div>
+                    <div className="work-img">
+                      <img src={ReadMe} alt="" className="img-fluid" />
+                    </div>
+                    <div className="work-content">
+                      <div className="row">
+                        <div className="col-sm-8">
+                          <h2 className="w-title">README Generator - CLI</h2>
+                          <div className="w-more">
+                            <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
+                            <div>
+                              <span className="w-ctegory">
+                                <a href="https://github.com/AFeese/READMEgenerator" target="_blank"> View Code in Your CLI</a>
+                              </span>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                        <div className="col-sm-4">
+                          <div className="w-like">
+                            <span className="ion-ios-plus-outline"></span>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                {/* <a href={Scheduler} data-lightbox="gallery-mf"> */}
-                <div>
-                  <div className="work-img">
-                    <img src={Scheduler} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Workday Scheduler</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
-                          <div>
-                            <span className="w-ctegory">
-                              <a href="https://afeese.github.io/Day-Planner/" target="_blank">Live Site |</a>
-                              <a href="https://github.com/AFeese/Day-Planner" target="_blank"> View Code </a>
-                            </span>
+              <div className="col-md-4">
+                <div className="work-box">
+                  {/* <a href={Scheduler} data-lightbox="gallery-mf"> */}
+                  <div>
+                    <div className="work-img">
+                      <img src={Scheduler} alt="" className="img-fluid" />
+                    </div>
+                    <div className="work-content">
+                      <div className="row">
+                        <div className="col-sm-8">
+                          <h2 className="w-title">Workday Scheduler</h2>
+                          <div className="w-more">
+                            <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
+                            <div>
+                              <span className="w-ctegory">
+                                <a href="https://afeese.github.io/Day-Planner/" target="_blank">Live Site |</a>
+                                <a href="https://github.com/AFeese/Day-Planner" target="_blank"> View Code </a>
+                              </span>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                        <div className="col-sm-4">
+                          <div className="w-like">
+                            <span className="ion-ios-plus-outline"></span>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -200,8 +206,7 @@ class Portfolio extends React.Component {
               </div>
             </div>
           </div>
-          </div>
-      </section>
+        </section>
       </>
     );
   }

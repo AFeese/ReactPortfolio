@@ -23,7 +23,12 @@ const URLs = {
   templateEngCode: "https://github.com/AFeese/EmployeeTemplateEngine",
 
   noteTakerLive: "https://afeese-note-taker.herokuapp.com/",
-  noteTakerCode: "https://github.com/AFeese/NoteTaker"
+  noteTakerCode: "https://github.com/AFeese/NoteTaker",
+
+  readMeCode: "https://github.com/AFeese/README_Generator",
+
+  schedulerLive: "https://afeese.github.io/Day-Planner/",
+  schedulerCode: "https://github.com/AFeese/Day-Planner"
 }
 
 class Portfolio extends React.Component {
@@ -67,7 +72,7 @@ class Portfolio extends React.Component {
               <Project image={RedPlanet}
                 liveUrl={URLs.redPlanetLive}
                 codeUrl={URLs.redPlanetCode}
-                title="Red Planet Voyagers - A Mars Pre-Travel Hub"
+                title="Red Planet Voyagers - A Mars Pre-Travel Hub Ahead of the Space Race"
                 technologies="HTML5, CSS, Bootstrap, MySQL, NASA APIs, Charts.js"
                 hasWebsite={true}
               />
@@ -85,74 +90,26 @@ class Portfolio extends React.Component {
                 hasWebsite={false}
               />
               <Project image={NoteTaker}
-              liveUrl={URLs.noteTakerLive}
-              codeUrl={URLs.noteTakerCode}
-              title="EXPRESS Note Taker"
-              technologies="HTML5, CSS, EXPRESS, Node.js, API Routing, JavaScript"
-              hasWebsite={true}
+                liveUrl={URLs.noteTakerLive}
+                codeUrl={URLs.noteTakerCode}
+                title="EXPRESS Note Taker"
+                technologies="HTML5, CSS, EXPRESS, Node.js, API Routing, JavaScript"
+                hasWebsite={true}
+              />
+              <Project image={ReadMe}
+                codeUrl={URLs.readMeCode}
+                title="README Generator - Using CLI"
+                technologies="HTML5, CSS, JavaScript, Axios, Inquirer"
+                hasWebsite={false}
+              />
+              <Project image={Scheduler}
+                liveUrl={URLs.schedulerLive}
+                codeUrl={URLs.schedulerCode}
+                title="Work Day Scheduler"
+                technologies="HTML5, CSS, JavaScript, Moment.js, jQuery, Local Storage"
+                hasWebsite={true}
               />
 
-              <div className="col-md-4">
-                <div className="work-box">
-                  {/* <a href={ReadMe} data-lightbox="gallery-amtbw"> */}
-                  <div>
-                    <div className="work-img">
-                      <img src={ReadMe} alt="" className="img-fluid" />
-                    </div>
-                    <div className="work-content">
-                      <div className="row">
-                        <div className="col-sm-8">
-                          <h2 className="w-title">README Generator - CLI</h2>
-                          <div className="w-more">
-                            <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
-                            <div>
-                              <span className="w-ctegory">
-                                <a href="https://github.com/AFeese/READMEgenerator" target="_blank"> View Code in Your CLI</a>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-sm-4">
-                          <div className="w-like">
-                            <span className="ion-ios-plus-outline"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="work-box">
-                  {/* <a href={Scheduler} data-lightbox="gallery-mf"> */}
-                  <div>
-                    <div className="work-img">
-                      <img src={Scheduler} alt="" className="img-fluid" />
-                    </div>
-                    <div className="work-content">
-                      <div className="row">
-                        <div className="col-sm-8">
-                          <h2 className="w-title">Workday Scheduler</h2>
-                          <div className="w-more">
-                            <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
-                            <div>
-                              <span className="w-ctegory">
-                                <a href="https://afeese.github.io/Day-Planner/" target="_blank">Live Site |</a>
-                                <a href="https://github.com/AFeese/Day-Planner" target="_blank"> View Code </a>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-sm-4">
-                          <div className="w-like">
-                            <span className="ion-ios-plus-outline"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </section>

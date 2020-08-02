@@ -1,19 +1,23 @@
 import React from 'react';
 import './stars.scss';
 // import imageOverlay from "../img/circuit.jpg";
+// import imageOverlay from "../img/triangle1.jpg";
+import imageOverlay from "../img/nexus.jpg";
+// import imageOverlay from "../img/triangle.jpg";
 import Typed from 'react-typed';
 
 class Intro extends React.Component{
     render(){
         return (
-          // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+imageOverlay+")"}}>
-            <div id="home" className="intro route bg-image background">
+          <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+imageOverlay+")"}}>
+            {/* <div id="home" className="intro route bg-image background"> */}
               {/* Parallax */}
               <div id="stars" />
               <div id="stars2" />
               <div id="stars3" />
             {/* <div className="overlay-intro"></div> */}
             <div className="intro-content display-table">
+
               <div className="table-cell">
                 <div className="container">
                   <h1 className="intro-title mb-4">I'm Ashley Feese</h1>

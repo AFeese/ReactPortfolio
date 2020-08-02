@@ -32,7 +32,7 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={RedPlanet} data-lightbox="gallery-vmarine">
+                <div>
                   <div className="work-img">
                     <img src={RedPlanet} alt="" className="img-fluid" />
                   </div>
@@ -41,7 +41,7 @@ class Portfolio extends React.Component {
                       <div className="col-sm-8">
                         <h2 className="w-title">Red Planet Voyagers - A Mars Pre-Travel Hub</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
+                          <span className="w-ctegory">HTML5, CSS3, JavaScript, Express, Node, Bootstrap, MySQL, NASA APIs, Charts.js</span>
                           <div>
                             <span className="w-ctegory">
                               <a href="https://team-5-project-2.herokuapp.com/" target="_blank">Live Site |</a>
@@ -57,12 +57,13 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={FuelUp} data-lightbox="gallery-aguadeluz">
+                {/* <a href={FuelUp} data-lightbox="gallery-aguadeluz"> */}
+                <div>
                   <div className="work-img">
                     <img src={FuelUp} alt="" className="img-fluid" />
                   </div>
@@ -71,7 +72,7 @@ class Portfolio extends React.Component {
                       <div className="col-sm-8">
                         <h2 className="w-title">FuelUp! Fuel and Charging Station Locator</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
+                          <span className="w-ctegory">HTML5, CSS3, JavaScript, Bootstrap, Node, MaterializeCSS, Google Maps API, Openchargemap.io</span>
                           <div>
                             <span className="w-ctegory">
                               <a href="https://team6diamondplatipi.github.io/TechnicallyAMammal/" target="_blank">Live Site |</a>
@@ -87,12 +88,13 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={TemplateEng} data-lightbox="gallery-todo">
+                {/* <a href={TemplateEng} data-lightbox="gallery-todo"> */}
+                <div>
                   <div className="work-img">
                     <img src={TemplateEng} alt="" className="img-fluid" />
                   </div>
@@ -116,12 +118,13 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={NoteTaker} data-lightbox="gallery-medlingos">
+                {/* <a href={NoteTaker} data-lightbox="gallery-medlingos"> */}
+                <div>
                   <div className="work-img">
                     <img src={NoteTaker} alt="" className="img-fluid" />
                   </div>
@@ -146,12 +149,13 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={ReadMe} data-lightbox="gallery-amtbw">
+                {/* <a href={ReadMe} data-lightbox="gallery-amtbw"> */}
+                <div>
                   <div className="work-img">
                     <img src={ReadMe} alt="" className="img-fluid" />
                   </div>
@@ -175,12 +179,13 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={Scheduler} data-lightbox="gallery-mf">
+                {/* <a href={Scheduler} data-lightbox="gallery-mf"> */}
+                <div>
                   <div className="work-img">
                     <img src={Scheduler} alt="" className="img-fluid" />
                   </div>
@@ -205,7 +210,7 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
               </div>
             </div>
           </div>

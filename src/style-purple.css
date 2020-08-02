@@ -82,6 +82,11 @@ a:hover {
   overflow: hidden;
 }
 
+.projectsIcon {
+  text-align: center;
+  margin-top: 20px;
+}
+
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;

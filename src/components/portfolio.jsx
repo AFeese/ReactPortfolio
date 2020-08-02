@@ -1,7 +1,9 @@
 import React from 'react';
 import Project from "./project";
+import ProjectImg from "./projects_img";
 
-//Image for parallax div
+//Images for parallax divs
+import TriangleImg from "../img/projectsLrg.png";
 import imageOverlay from "../img/circuit.jpg";
 
 
@@ -39,11 +41,8 @@ class Portfolio extends React.Component {
         <section className="paralax-mf footer-paralax bg-image sect-mt4 route" style={{ backgroundImage: "url(" + imageOverlay + ")" }}>
           <div className="container">
             <div className="row">
-              <div className="col-sm-12">
-                <div className="copyright-box">
-                  <p className="copyright">2020 &copy; Copyright <strong>Ashley Feese</strong> - Powered by Heroku</p>
-                </div>
-              </div>
+            <ProjectImg image={TriangleImg}
+            />
             </div>
           </div>
         </section>
@@ -68,7 +67,6 @@ class Portfolio extends React.Component {
 
             {/* Start projects section */}
             <div className="row">
-
               <Project image={RedPlanet}
                 liveUrl={URLs.redPlanetLive}
                 codeUrl={URLs.redPlanetCode}
@@ -98,8 +96,8 @@ class Portfolio extends React.Component {
               />
               <Project image={ReadMe}
                 codeUrl={URLs.readMeCode}
-                title="README Generator - Using CLI"
-                technologies="HTML5, CSS, JavaScript, Axios, Inquirer"
+                title="README Generator"
+                technologies="HTML5, CSS, JavaScript, Axios, Inquirer, Command Line Interface"
                 hasWebsite={false}
               />
               <Project image={Scheduler}
@@ -109,7 +107,6 @@ class Portfolio extends React.Component {
                 technologies="HTML5, CSS, JavaScript, Moment.js, jQuery, Local Storage"
                 hasWebsite={true}
               />
-
             </div>
           </div>
         </section>

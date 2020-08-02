@@ -28,11 +28,11 @@ function Project(props) {
                           </div>
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      {/* <div className="col-sm-4">
                         <div className="w-like">
                           <span className="ion-ios-plus-outline"></span>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

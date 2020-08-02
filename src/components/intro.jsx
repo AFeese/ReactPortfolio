@@ -1,6 +1,6 @@
 import React from 'react';
 import './stars.scss';
-import imageOverlay from "../img/circuit.jpg";
+// import imageOverlay from "../img/circuit.jpg";
 import Typed from 'react-typed';
 
 class Intro extends React.Component{

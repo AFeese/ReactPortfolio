@@ -84,7 +84,12 @@ a:hover {
 
 .projectsIcon {
   text-align: center;
-  margin-top: 20px;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.centering {
+ text-align: center;
 }
 
 .bg-image {
@@ -1063,7 +1068,7 @@ a:hover {
 ======================================*/
 
 .footer-paralax {
-  padding: 4rem 0 0 0;
+  padding: 1rem 0 0 0;
 }
 
 .contact-mf {

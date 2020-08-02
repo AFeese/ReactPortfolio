@@ -40,7 +40,7 @@ class Portfolio extends React.Component {
       <>
         <section className="paralax-mf footer-paralax bg-image sect-mt4 route" style={{ backgroundImage: "url(" + imageOverlay + ")" }}>
           <div className="container">
-            <div className="row">
+            <div className="row centering">
             <ProjectImg image={TriangleImg}
             />
             </div>

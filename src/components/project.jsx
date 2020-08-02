@@ -19,10 +19,10 @@ function Project(props) {
                             <span className="w-ctegory">
                                 {props.hasWebsite ? 
                                 <>
-                                    <a href={props.liveUrl} target="_blank">Live Site |</a>
-                                    <a href={props.codeUrl} target="_blank"> View Code </a> 
+                                    <a href={props.liveUrl} target="_blank" rel="noopener noreferrer">Live Site |</a>
+                                    <a href={props.codeUrl} target="_blank" rel="noopener noreferrer"> View Code </a> 
                                 </>
-                                : <a href={props.codeUrl} target="_blank">View Code in Your Terminal</a>
+                                : <a href={props.codeUrl} target="_blank" rel="noopener noreferrer">View Code in Your Terminal</a>
                                 }
                             </span>
                           </div>

@@ -20,7 +20,7 @@ class Contact extends React.Component{
                                 </h5>
                             </div>
                             <div>
-                                <h5><a href="mailto:ashleyfeese@outlook.com"><span class="ion-email"></span><strong> ashleyfeese@outlook.com</strong></a></h5>
+                                <h5><a href="mailto:ashleyfeese@outlook.com"><span className="ion-email"></span><strong> ashleyfeese@outlook.com</strong></a></h5>
                             </div>
                             </div>
                             <div className="col-md-6">
@@ -31,8 +31,8 @@ class Contact extends React.Component{
                             </div>
                             <div className="more-info">
                                 <p className="lead">
-                                    Proudly affiliated with <a href="https://www.womenwhocode.com/" target="_blank"><strong>Women Who Code </strong></a>
-                                     and <a href="https://swe.org/" target="_blank"><strong>Society of Women Engineers</strong></a>
+                                    Proudly affiliated with <a href="https://www.womenwhocode.com/" target="_blank" rel="noopener noreferrer"><strong>Women Who Code </strong></a>
+                                     and <a href="https://swe.org/" target="_blank" rel="noopener noreferrer"><strong>Society of Women Engineers</strong></a>
                                 </p>
                             </div>
                             <div className="socials">

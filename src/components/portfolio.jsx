@@ -82,36 +82,10 @@ class Portfolio extends React.Component {
                 technologies="HTML5, CSS, JavaScript, Bootstrap, Node, MaterializeCSS, Google Maps API, Openchargemap.io"
                 hasWebsite={false}
               />
-              <div className="col-md-4">
-                <div className="work-box">
-                  {/* <a href={TemplateEng} data-lightbox="gallery-todo"> */}
-                  <div>
-                    <div className="work-img">
-                      <img src={TemplateEng} alt="" className="img-fluid" />
-                    </div>
-                    <div className="work-content">
-                      <div className="row">
-                        <div className="col-sm-8">
-                          <h2 className="w-title">Team Template Engine - CLI</h2>
-                          <div className="w-more">
-                            <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
-                            <div>
-                              <span className="w-ctegory">
-                                <a href="https://github.com/AFeese/EmployeeTemplateEngine" target="_blank"> View Code in Your Terminal</a>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-sm-4">
-                          <div className="w-like">
-                            <span className="ion-ios-plus-outline"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
+
+
+
               <div className="col-md-4">
                 <div className="work-box">
                   {/* <a href={NoteTaker} data-lightbox="gallery-medlingos"> */}

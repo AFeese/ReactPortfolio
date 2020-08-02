@@ -18,7 +18,9 @@ import Scheduler from "../img/wdsched.jpg";
 
 const URLs = {
   redPlanetLive: "https://team-5-project-2.herokuapp.com/",
-  redPlanetCode: "https://github.com/AFeese/RedPlanetVoyagers"
+  redPlanetCode: "https://github.com/AFeese/RedPlanetVoyagers",
+  fuelUpLive: "https://team6diamondplatipi.github.io/TechnicallyAMammal/",
+  fuelUpCode: "https://github.com/Team6DiamondPlatipi/TechnicallyAMammal"
 }
 
 class Portfolio extends React.Component {
@@ -63,49 +65,18 @@ class Portfolio extends React.Component {
                 liveUrl={URLs.redPlanetLive}
                 codeUrl={URLs.redPlanetCode}
                 title="Red Planet Voyagers - A Mars Pre-Travel Hub"
-                technologies="HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js"
+                technologies="HTML5, CSS, Bootstrap, MySQL, NASA APIs, Charts.js"
                 hasWebsite={true}
               />
-              <Project image={RedPlanet}
-                liveUrl={URLs.redPlanetLive}
-                codeUrl={URLs.redPlanetCode}
-                title="Red Planet Voyagers - A Mars Pre-Travel Hub"
-                technologies="HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js"
+              <Project image={FuelUp}
+                liveUrl={URLs.fuelUpLive}
+                codeUrl={URLs.fuelUpCode}
+                title="FuelUp! - Charger and Fuel Station Locator"
+                technologies="HTML5, CSS, JavaScript, Bootstrap, Node, MaterializeCSS, Google Maps API, Openchargemap.io"
                 hasWebsite={true}
               />
 
 
-              <div className="col-md-4">
-                <div className="work-box">
-                {/* <a href={FuelUp} data-lightbox="gallery-aguadeluz"> */}
-                <div>
-                  <div className="work-img">
-                    <img src={FuelUp} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">FuelUp! Fuel and Charging Station Locator</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">HTML5, CSS3, JavaScript, Bootstrap, Node, MaterializeCSS, Google Maps API, Openchargemap.io</span>
-                          <div>
-                            <span className="w-ctegory">
-                              <a href="https://team6diamondplatipi.github.io/TechnicallyAMammal/" target="_blank">Live Site |</a>
-                              <a href="https://github.com/Team6DiamondPlatipi/TechnicallyAMammal" target="_blank"> View Code </a>
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div className="col-md-4">
               <div className="work-box">
                 {/* <a href={TemplateEng} data-lightbox="gallery-todo"> */}

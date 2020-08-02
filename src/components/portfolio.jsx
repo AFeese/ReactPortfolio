@@ -4,7 +4,8 @@ import ProjectImg from "./projects_img";
 
 //Images for parallax divs
 import TriangleImg from "../img/projectsLrg.png";
-import imageOverlay from "../img/circuit.jpg";
+// import imageOverlay from "../img/circuit.jpg";
+import imageOverlay from "../img/triangle1.jpg";
 
 
 import RedPlanet from "../img/rpv.png";

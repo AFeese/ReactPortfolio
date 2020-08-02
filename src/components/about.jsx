@@ -7,7 +7,7 @@ class About extends React.Component{
         this.state = {
             skills:[
                 {id:"HTML5_skill", content: "HTML5",percentage: "90%", value: "90"},
-                {id:"CSS3_skill", content: "CSS3",percentage: "75%", value: "75"},
+                {id:"CSS3_skill", content: "CSS",percentage: "75%", value: "75"},
                 {id:"JavaScript_skill", content: "JavaScript",percentage: "90%", value: "90"},
                 // {id:"PHP_skill", content: "PHP",percentage: "70%", value: "70"},
                 {id:"ReactJS_skill", content: "ReactJS",percentage: "80%", value: "80"},
@@ -16,9 +16,9 @@ class About extends React.Component{
                 // {id:"Wordpress_skill", content: "Wordpress",percentage: "80%", value: "80"}
             ],
             about_me:[
-                {id: "first-p-about",content: "Software Engineer who loves to transform ideas into reality using code. I am passionate about using Javascript and Animation Libraries to create awesome user experiences."},
-                {id: "second-p-about", content: "With over two years of experience developing web applications using the latest front-end and back-end technologies."},
-                {id: "third-p-about", content: "Motivated designer and developer with experience creating custom websites with ReactJs, JavaScript, HTML5, and CSS3. Strong collaboration skills and proven history of application development. Wordpress and MySQL."}
+                {id: "first-p-about",content: "A former hospitality enthusiast turned ardent and creative developer - "},
+                {id: "second-p-about", content: "Motivated by intellectual curiosity, developing software, team collaboration, solving challenges, and now has a new-found love for programming and design."},
+                {id: "third-p-about", content: "How can I help you and your team?"}
             ]
         }
     }

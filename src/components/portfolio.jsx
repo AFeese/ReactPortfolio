@@ -13,15 +13,17 @@ import ReadMe from "../img/cliReadme.png";
 import Scheduler from "../img/wdsched.jpg";
 
 
-// This is where I know that I need to make a Portfolio component itself and render multiple instances.
-// I only rendered one single return here instead of 6 but I am still getting familiar with it :(
-
 const URLs = {
   redPlanetLive: "https://team-5-project-2.herokuapp.com/",
   redPlanetCode: "https://github.com/AFeese/RedPlanetVoyagers",
+
   fuelUpLive: "https://team6diamondplatipi.github.io/TechnicallyAMammal/",
   fuelUpCode: "https://github.com/Team6DiamondPlatipi/TechnicallyAMammal",
-  templateEngCode: "https://github.com/AFeese/EmployeeTemplateEngine"
+
+  templateEngCode: "https://github.com/AFeese/EmployeeTemplateEngine",
+
+  noteTakerLive: "https://afeese-note-taker.herokuapp.com/",
+  noteTakerCode: "https://github.com/AFeese/NoteTaker"
 }
 
 class Portfolio extends React.Component {
@@ -82,41 +84,14 @@ class Portfolio extends React.Component {
                 technologies="HTML5, CSS, JavaScript, Bootstrap, Node, MaterializeCSS, Google Maps API, Openchargemap.io"
                 hasWebsite={false}
               />
-              
+              <Project image={NoteTaker}
+              liveUrl={URLs.noteTakerLive}
+              codeUrl={URLs.noteTakerCode}
+              title="EXPRESS Note Taker"
+              technologies="HTML5, CSS, EXPRESS, Node.js, API Routing, JavaScript"
+              hasWebsite={true}
+              />
 
-
-
-              <div className="col-md-4">
-                <div className="work-box">
-                  {/* <a href={NoteTaker} data-lightbox="gallery-medlingos"> */}
-                  <div>
-                    <div className="work-img">
-                      <img src={NoteTaker} alt="" className="img-fluid" />
-                    </div>
-                    <div className="work-content">
-                      <div className="row">
-                        <div className="col-sm-8">
-                          <h2 className="w-title">EXPRESS Note Taker</h2>
-                          <div className="w-more">
-                            <span className="w-ctegory">HTML5, CSS3, Bootstrap, MySQL, NASA APIs, Charts.js</span>
-                            <div>
-                              <span className="w-ctegory">
-                                <a href="https://afeese-note-taker.herokuapp.com/" target="_blank">Live Site |</a>
-                                <a href="https://github.com/AFeese/NoteTaker" target="_blank"> View Code </a>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-sm-4">
-                          <div className="w-like">
-                            <span className="ion-ios-plus-outline"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div className="col-md-4">
                 <div className="work-box">
                   {/* <a href={ReadMe} data-lightbox="gallery-amtbw"> */}

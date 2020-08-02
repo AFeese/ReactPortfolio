@@ -349,7 +349,7 @@ a:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: rgb(53, 50, 54);
 }
 
 #preloader:before {
@@ -357,8 +357,8 @@ a:hover {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border: 6px solid #2d2530;
+  border-top: 6px solid #8e05c4;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -548,7 +548,7 @@ NAVBAR
 
 .navbar-toggler span {
   display: block;
-  background-color: #fff;
+  background-color: rgba(59, 53, 61, 0.685);
   height: 3px;
   width: 25px;
   margin-top: 4px;

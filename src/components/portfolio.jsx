@@ -35,14 +35,14 @@ class Portfolio extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <div className="title-box text-center">
-                  <h3 className="title-a">
-                    Portfolio
-                    </h3>
-                  <p className="subtitle-a">
-                  </p>
-                  <div className="line-mf"></div>
-                </div>
+                {/* <div className="title-box text-center">
+                    <h3 className="title-a">
+                      Portfolio
+                      </h3>
+                    <p className="subtitle-a">
+                    </p>
+                    <div className="line-mf"></div>
+                </div> */}
               </div>
             </div>
             <div className="row">

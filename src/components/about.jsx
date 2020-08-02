@@ -38,14 +38,6 @@ class About extends React.Component{
                                                     <img src={myImage} className="img-fluid rounded b-shadow-a" alt=""/>
                                                 </div>
                                             </div>
-                                            {/* <div className="col-sm-6 col-md-7">
-                                                <div className="about-info">
-                                                <p><span class="title-s">Name: </span> <span>Frank Izquierdo</span></p>
-                                                <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
-                                                <p><span class="title-s">Email: </span> <span>contact@example.com</span></p>
-                                                <p><span class="title-s">Phone: </span> <span>(617) 557-0089</span></p>
-                                                </div>
-                                            </div> */}
                                         </div>
                                         <div className="skill-mf">
                                             {/* <p className="title-s">Skill</p> */}

@@ -14,13 +14,20 @@ class Contact extends React.Component{
                         <div id="contact" className="box-shadow-full">
                         <div className="row">
                             <div className="col-md-6">
-                            <div className="title-box-2">
-                                <h5 className="title-left">
-                                Contact
-                                </h5>
-                            </div>
-                            <div>
-                                <h5><a href="mailto:ashleyfeese@outlook.com"><span className="ion-email"></span><strong> ashleyfeese@outlook.com</strong></a></h5>
+                                <div className="title-box-2">
+                                    <h5 className="title-left">
+                                    Contact
+                                    </h5>
+                                </div>
+                                <div>
+                                    <h5><a href="mailto:ashleyfeese@outlook.com"><span className="ion-email"></span><strong> ashleyfeese@outlook.com</strong></a></h5>
+                                </div>
+                                <div className="socials">
+                                <ul>
+                                {/* <li><a href="#" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-codepen"></i></span></a></li> */}
+                                <p><a href="mailto:ashleyfeese@outlook.com" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-github"></i></span></a></p>
+                                <p><a href="https://www.linkedin.com/in/ashley-feese/" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-linkedin"></i></span></a></p>
+                                </ul>
                             </div>
                             </div>
                             <div className="col-md-6">

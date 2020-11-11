@@ -2,7 +2,7 @@
   "name": "ashley_feese_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AFeese.github.io/ReactPortfolio",
+  "homepage": "https://afeese-react-portfolio.herokuapp.com/",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "gh-pages": "^2.2.0",

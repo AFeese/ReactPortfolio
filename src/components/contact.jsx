@@ -1,6 +1,8 @@
 import React from "react";
 import imageOverlay from "../img/circuit.jpg";
 
+// Comment for testing
+
 class Contact extends React.Component {
   render() {
     return (
